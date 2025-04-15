@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@tailwindcss/postcss": "^4.1.4",
     "@types/aos": "^3.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -28,8 +28,5 @@
     "eslint-config-next": "15.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "engines": {
-  "node": "18.x"
   }
 }
