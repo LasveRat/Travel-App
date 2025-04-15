@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 type Props = {
@@ -11,7 +12,7 @@ const NewsCard = ({ date, image, title }: Props) => {
     <div>
       <div className="h-[300px]">
         {/* Image */}
-        <img
+        <Image
           src={image}
           alt={title}
           width={300}

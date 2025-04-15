@@ -1,6 +1,6 @@
 "use client";
-import React, { use, useEffect } from "react";
-import { FaArrowAltCircleUp, FaArrowUp } from "react-icons/fa";
+import React, { useEffect } from "react";
+import { FaArrowUp } from "react-icons/fa";
 
 const ScrollToTop = () => {
   const [visible, setVisible] = React.useState(false);

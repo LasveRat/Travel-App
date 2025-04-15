@@ -11,7 +11,7 @@ import NewsLetter from "./NewsLetter/NewsLetter";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const home = () => {
+const Home = () => {
   useEffect(() => {
     const initAOS = async () => {
       await import("aos");
@@ -38,4 +38,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
